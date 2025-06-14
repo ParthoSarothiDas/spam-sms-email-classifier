@@ -2,6 +2,9 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+nltk.download('punkt')
+nltk.download('stopwords')
+
 ps = PorterStemmer()
 
 def text_transformer(text):
