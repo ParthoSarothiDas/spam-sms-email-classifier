@@ -1,3 +1,5 @@
 streamlit==1.37.1
 pandas==2.2.3
 pickle==3.12.7
+scikit-learn
+nltk
