@@ -1,9 +1,10 @@
 import streamlit as st
-import os
-nltk.data.path.append(os.path.join(os.getcwd(), 'nltk_data'))
 
 import pickle
 import nltk
+import os
+nltk.data.path.append(os.path.join(os.getcwd(), 'nltk_data'))
+
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
