@@ -1,5 +1,7 @@
 
 ## 📩 Spam SMS/Email Classifier
+[🌐Visit Website](https://spam-sms-email-classifier.streamlit.app/)
+
 
 A simple web application built using **Streamlit** that detects whether a given SMS or email text is **SPAM** or **Not SPAM** using a **Multinomial Naive Bayes (MNB)** model and a **TF-IDF vectorizer**.
 
